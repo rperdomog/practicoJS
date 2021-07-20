@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precios y descuentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Precios y descuentos</h1>
+    <div class="container">
+        <div class="cajitas">
+            <p>Articulo</p>
+        </div>
+        <div class="cajitas">
+            <label for="">Precio</label>
+            <input id="price" type="number">
+        </div>
+        <div class="cajitas">
+            <label  for="">Descuento</label>
+            <input id="discount" type="number" disabled="disabled">
+        </div>
+        <div class="cajitas">
+            <button onclick="FNLlamaDescuento()">Calcular</button>
+        </div>
+        <div class="cajitas">
+            <p id="totPaga"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
